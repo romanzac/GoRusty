@@ -1,5 +1,5 @@
 # GoRusty
-### Rust learning curve flattener for Go developers. 
+### Rust learning curve flattener for Go developers
 
 
 While Golang is a powerful language with carefully selected defaults, Rust is the exact opposite. 
