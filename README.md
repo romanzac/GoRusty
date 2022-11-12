@@ -14,7 +14,7 @@ silent most of the time.
 - Rust compiler has no default initialization values, those have to come from developer.
 - Go variable could be defined upfront and allocated later, while Rust allocates immediately.
 
-##### <p style="color:#33D1FF">Go</p>
+##### <p style="color:#33D1FF">// Go</p>
 ```go
 var number int 
 
@@ -26,7 +26,7 @@ var v uint64 = 100;
 ```
 
 
-##### <p style="color:#FF5833">Rust</p>
+##### <p style="color:#FF5833">// Rust</p>
 ```rust
 let number = 0; // Type inferred as i32
 
