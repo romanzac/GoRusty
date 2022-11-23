@@ -12,9 +12,9 @@ silent most of the time.
 ### Assignments and primitive types
 - Variables in Go are generally mutable, while Rust defaults to immutable. 
 - Rust compiler has no default initialization values, those have to come from developer.
-- Go variable could be defined upfront and allocated later, while Rust allocates immediately.
+- Go variable could be defined upfront and allocated later, while in Rust we could do the same, it is not considered best practice, as uninitialized variables are in undefined state.
 
-##### <p style="color:#33D1FF">// Go</p>
+##### <p style="color:#33D1FF">- Go</p>
 ```go
 var number int 
 
@@ -26,7 +26,7 @@ var v uint64 = 100;
 ```
 
 
-##### <p style="color:#FF5833">// Rust</p>
+##### <p style="color:#FF5833">- Rust</p>
 ```rust
 let number = 0; // Type inferred as i32
 
