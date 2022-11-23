@@ -22,7 +22,7 @@ var x, y, z int
 
 var s string = "Hello, World!"
 
-var v uint64 = 100;
+var v uint64 = 100
 ```
 
 
