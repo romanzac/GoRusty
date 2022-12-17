@@ -9,7 +9,7 @@ same thing in many ways. My intention here is to share coding practice I found m
 silent most of the time.  
 
  
-### Assignments and primitive types
+### Assignments and Primitive Types
 - Variables in Go are generally mutable, while Rust defaults to immutable. 
 - Rust compiler has no default allocation values, those have to come from developer.
 - Go variable could be declared upfront and allocated later, while in Rust we could do the same, it is not considered best practice, as uninitialized variables are in undefined state.
@@ -38,5 +38,5 @@ let s: String = "Hello, World!".to_string();
 let mut v = 100u64; // mut keyword tells compiler mutation is allowed
 ```
 
-### Strings
-- Strings are present both in Go and Rust, based on the usage context, Rust additionally introduces a slice of String called "str". Whenever we would like to pass an immutable string to a function, we use reference to &str type.
+### Strings and Runes
+- Strings in Go and Rust are both UTF8 encoded. Rust additionally introduces a slice of String called "str". Whenever we would like to pass an immutable string to a function, we use reference to &str type.
