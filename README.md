@@ -51,3 +51,20 @@ fn main() {
     print_my_name(&s);
 }
 ```
+
+
+- String in Go can be indexed directly as any other slice. This is not available in Rust. We have an option to either obtain code points from chars iterator or to get raw bytes representation. 
+
+##### - Rust
+```rust
+
+fn main() {
+    let s = "Hello World!".to_string();
+    
+    let c4 = s.chars().nth(4).unwrap();
+    let b4: u8 = s.as_bytes()[4];
+    
+    println!("The fifth character from chars representation: {}", c4);
+    println!("The fifth character from bytes representation: {}", b4);
+}
+```
