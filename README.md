@@ -53,7 +53,7 @@ fn main() {
 ```
 
 
-- String in Go can be indexed directly as any other slice. This is not available in Rust. We have an option to either obtain code points from chars iterator or to get raw bytes representation. 
+- String in Go can be indexed directly as any other slice. This is not available in Rust. Here we have an option to either obtain code points from chars iterator or to get raw bytes representation. 
 
 ##### - Rust
 ```rust
